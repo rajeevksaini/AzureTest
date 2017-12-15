@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Azure Deploy Test Staging Slot' });
+  res.render('index', { title: 'Azure Deploy Staging Slot branch connection test' });
 });
 
 module.exports = router;
